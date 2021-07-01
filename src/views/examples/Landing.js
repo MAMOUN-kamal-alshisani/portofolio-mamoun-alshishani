@@ -81,37 +81,15 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
+                        dynamic and interactive web designs{" "}
                         <span>completed with examples</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                      it is interesting to build a web page that interacts with the users with the help of forms for example or a web page that is dynamic and moving things !!!
                       </p>
                       <div className="btn-wrapper">
-                        <Button
-                          className="btn-icon mb-3 mb-sm-0"
-                          color="info"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="fa fa-code" />
-                          </span>
-                          <span className="btn-inner--text">Components</span>
-                        </Button>
-                        <Button
-                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                          color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="ni ni-cloud-download-95" />
-                          </span>
-                          <span className="btn-inner--text">
-                            Download React
-                          </span>
-                        </Button>
+                      
+                     
                       </div>
                     </Col>
                   </Row>
@@ -148,32 +126,29 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Busmall project
+                          
                           </h6>
+                          <a  className="tg1" href="https://mamoun-kamal-alshisani.github.io/Busmall-lab/"> project link click here</a>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
-                          </p>
+                          it is a project i worked on in 201 course, and in this project you have the ability to vote for a picture a specefic number of times by clicking on the picture with few other features demonstrated in the project                        </p>
+                         
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              project
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                             Busmall
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                            course 201
                             </Badge>
                           </div>
-                          <Button
-                            className="mt-4"
-                            color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
+
+                         
+                         
+                          
+                       
                         </CardBody>
                       </Card>
                     </Col>
@@ -184,32 +159,24 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            baytalbuyut project
                           </h6>
+                          <a  className="tg2" href=" https://seis-amigos.github.io/Final-b-b/"> project link click here</a>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          it is a course 201 final project where we the concept is about realstate and we display various of features on the project as a team work
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              business
+                              project
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              vision
+                              bayt albuyut
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              success
+                              201 finally
                             </Badge>
                           </div>
-                          <Button
-                            className="mt-4"
-                            color="success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
+                        
                         </CardBody>
                       </Card>
                     </Col>
@@ -220,32 +187,24 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            horned-beast project
                           </h6>
+                          <a  className="tg3" href=" https://keen-pasteur-d9adb9.netlify.app/"> project link click here</a>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                           this is a project in course 301 smialar to busmall project but implemented using react
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
-                              marketing
+                              project
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              product
+                             horned beast
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              launch
+                              course 301
                             </Badge>
                           </div>
-                          <Button
-                            className="mt-4"
-                            color="warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
+                         
                         </CardBody>
                       </Card>
                     </Col>
